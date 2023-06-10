@@ -25,6 +25,6 @@ public class Google {
     public void googleImage(){
         Driver.getDriver().get("https://google.com");
         System.out.println("Checking some images");
-        Driver.quit();
+     Driver.quit();
     }
 }
